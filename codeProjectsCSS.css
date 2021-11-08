@@ -1,0 +1,108 @@
+body {
+	background-color: #A5D3FF;
+	background-image: linear-gradient(to right, #A5D3FF, #80c1ff);
+}
+
+* {
+	font-family: 'Tahoma', monospace;
+	overflow: scroll;
+}
+
+#title {
+	font-family: cursive;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	background-color: blue;
+	padding: 50px 30px;
+	margin: 100px 20px 0px 20px;
+	border-radius: 50px 50px 0px 0px;
+	background-image: linear-gradient(#388ebc, blue);
+	line-height: 35px;
+}
+
+#topheader {
+	font-family: monospace;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	background-color: blue;
+	padding: 0px 20px 20px 20px;
+	margin: 0px 20px 20px 20px;
+	border-radius: 0px 0px 50px 50px;
+}
+
+#sticky {
+	font-size: 20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+	text-align: center;
+	background-image: linear-gradient(to top, #388ebc, blue);
+	left: 0px;
+	font-family: monospace;
+}
+
+
+.ToC {
+	font-family: monospace;
+	font-size: 19px;
+	margin: 20px;
+}
+
+header.pHead {
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 20px;
+	width: 500px;
+	background-color: yellow;
+	padding: 15px;
+	text-align: center;
+	border-radius: 20px;
+	margin: 20px 30%;
+}
+
+p {
+	font-style: italic;
+	font-size: 17px;
+	margin: 20px;
+	padding: 10px;
+}
+
+.program {
+	margin: 20px;
+	border-radius: 20px;
+	text-align: center;
+	width: 96%;
+	height: 475px;
+}
+
+.green {
+	color: green;
+}
+
+a {
+	font-style: normal;
+	font-weight: normal;
+}
+
+button {
+	background-color: #bf3644;
+	background-image: linear-gradient(#bf3644, red);
+	border-radius: 10px;
+	padding: 5px;
+	margin: 3px;
+	width: 350px;
+}
+
+button:hover {
+	background-image: linear-gradient(#ce5561, red);
+	background-color: pink;
+}
+
+button:active {
+	background-color: #bf3644;
+	background-image: linear-gradient(#bf3644, red);
+}
